@@ -1,0 +1,209 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../imagens/bg.jpeg);
+    background-size: cover;
+}
+
+header {
+    height: 10vh;
+}
+
+ul{
+    list-style-type: none;
+    text-align:center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.p-title{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: fadeIn ease 1s;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+.p-title h1{
+    color: #fff;
+    font-size: 30px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.c-mobo{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 35%;
+    left: 19%;
+    background-color:rgba(221,236,255,.1);
+    border: rgba(221,236,255,.2) solid;
+    max-width: 300px;
+    text-align: center;
+    animation: fadeIn ease 1s;
+}
+
+.moboimg{
+    width: 50%;
+}
+
+.t-mobo{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.c-cpu{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    background-color:rgba(221,236,255,.1);
+    border: rgba(221,236,255,.2) solid;
+    max-width: 300px;
+    text-align: center;
+    animation: fadeIn ease 1s;
+}
+
+.cpuimg{
+    width: 64%;
+}
+
+.t-cpu{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.c-ram{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    background-color:rgba(221,236,255,.1);
+    border: rgba(221,236,255,.2) solid;
+    max-width: 300px;
+    text-align: center;
+    animation: fadeIn ease 1s;
+}
+
+.ramimg{
+    width: 65%;
+}
+
+.t-ram{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.c-hd{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 70%;
+    left: 19%;
+    background-color:rgba(221,236,255,.1);
+    border: rgba(221,236,255,.2) solid;
+    max-width: 300px;
+    text-align: center;
+    animation: fadeIn ease 1s;
+}
+
+.hdimg{
+    width: 45%;
+}
+
+.t-hd{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.c-ssd{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    background-color:rgba(221,236,255,.1);
+    border: rgba(221,236,255,.2) solid;
+    max-width: 300px;
+    text-align: center;
+    animation: fadeIn ease 1s;
+}
+
+.ssdimg{
+    width: 60%;
+}
+
+.t-ssd{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.c-monitor{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    background-color:rgba(221,236,255,.1);
+    border: rgba(221,236,255,.2) solid;
+    max-width: 300px;
+    text-align: center;
+    animation: fadeIn ease 1s;
+}
+
+.monitorimg{
+    width: 62%;
+}
+
+.t-monitor{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Não mudar o código abaixo */
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
