@@ -34,27 +34,110 @@ ul li a:hover{
     color:#000;
 }
 
-.a-title{
+.quadro{
+    position: center;
+    background-color:rgba(221,236,255,.25);
+    border: rgba(221,236,255,.2) solid;
+    height: 50rem;
+    max-width: 92rem;
+    max-height: 1000px;
+    transform: translate(0,-3%);
+}
+
+.a-tinfo{
     position: absolute;
+    top: 12%;
     left: 50%;
     transform: translate(-50%,-50%);
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
-.a-title h1{
+.a-tinfo h1{
     color: #fff;
     font-size: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.a-tinfo p{
+    transform: translate(0%,20%);
+    color: #fff;
+    font-size: 20px;
     vertical-align: top;
     text-align: left;
 }
 
+.a-vant {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn ease 1s;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
 
+.a-vant h1{
+    color: #fff;
+    font-size: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.a-vant p{
+    transform: translate(0%,20%);
+    color: #fff;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.a-comoser{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn ease 1s;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+.a-comoser h1{
+    color: #fff;
+    font-size: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.a-comoser p{
+    transform: translate(0%,20%);
+    color: #fff;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.pepe{
+    width: 40px;
+}
+
+.par-logo{
+    width: 20rem;
+    position: absolute;
+    left: 75%;
+    top: 60%;
+}
+
+#email{
+    text-decoration: none;
+    color: white;
+}
 /* Não mudar o código abaixo */
+
 
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
+
 }
 @-moz-keyframes fadeIn {
     0% {opacity:0;}
