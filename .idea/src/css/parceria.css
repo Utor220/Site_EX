@@ -34,6 +34,21 @@ ul li a:hover{
     color:#000;
 }
 
+.a-title{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: fadeIn ease 1s;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+.a-title h1{
+    color: #fff;
+    font-size: 30px;
+    vertical-align: top;
+    text-align: left;
+}
+
 
 /* Não mudar o código abaixo */
 
