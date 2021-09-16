@@ -7,10 +7,11 @@ body{
 	background-color: slategrey;
 	background-image: url(../imagens/bg.jpeg);
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 header {
-	height: 100vh;
+	height: auto;
 	background-position: center;
 }
 
@@ -36,27 +37,28 @@ ul li a:hover{
 	color:#000;
 }
 
+
+.logo-home{
+	margin: 3em auto auto auto;
+	max-width: 13em;
+	height: auto;
+	animation: fadeIn ease 1s;
+}
+
+.logo-home img{
+	max-width: 100%;
+	height: auto;
+}
+
 .title{
-	position: absolute;
-	top: 50%;
-	left: 53%;
-	transform: translate(-50%,-50%);
+	margin: auto auto auto auto;
 	animation: fadeIn ease 1s;
 	text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
-.logo-home{
-	display: flex;
-	width: 240px;
-	height: 120px;
-	animation: fadeIn ease 1s;
-	margin-left: 680px;
-	margin-top: 15px;
-}
-
 .title h1{
 	color: #fff;
-	font-size: 70px;
+	font-size: 60px;
 	text-align: center;
 }
 

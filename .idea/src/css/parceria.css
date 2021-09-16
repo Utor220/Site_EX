@@ -5,6 +5,7 @@
 
 body{
     background-image: url(../imagens/bg.jpeg);
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -35,20 +36,20 @@ ul li a:hover{
 }
 
 .quadro{
-    position: center;
+    width: auto;
+    min-width: 10em;
+    max-width: 60em;
+    min-height: 40em;
+    max-height: auto;
+    height: auto;
+    margin: -1.7% auto;
+    position: relative;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
-    height: 50rem;
-    max-width: 92rem;
-    max-height: 1000px;
-    transform: translate(0,-3%);
 }
 
 .a-tinfo{
-    position: absolute;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: 2% 15%;
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
@@ -61,18 +62,14 @@ ul li a:hover{
 }
 
 .a-tinfo p{
-    transform: translate(0%,20%);
     color: #fff;
     font-size: 20px;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
 }
 
 .a-vant {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 4% auto;
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
@@ -85,18 +82,14 @@ ul li a:hover{
 }
 
 .a-vant p{
-    transform: translate(0%,20%);
     color: #fff;
     font-size: 20px;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
 }
 
 .a-comoser{
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto auto auto auto;
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
@@ -109,23 +102,16 @@ ul li a:hover{
 }
 
 .a-comoser p{
-    transform: translate(0%,20%);
     color: #fff;
     font-size: 20px;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
 }
 
 .pepe{
-    width: 40px;
-}
+    min-width: 2em;
+    max-width: 2em;
 
-.par-logo{
-    width: 20rem;
-    position: absolute;
-    left: 75%;
-    top: 60%;
-    animation: fadeIn ease 1s;
 }
 
 #email{
