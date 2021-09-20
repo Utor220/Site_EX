@@ -13,7 +13,7 @@ body{
 }
 
 header {
-    height: auto;
+    height: 10vh;
 }
 
 ul{
@@ -57,16 +57,16 @@ a{
 }
 
 main{
-    min-height: 40em;
+    min-height: 30em;
     margin: auto auto auto auto;
     animation: fadeIn ease 1s;
     border: rgba(221,236,255,.2) solid;
     border-radius: 10px;
 }
 
-.teste{
+.frame2{
+    padding-top: 7em;
     margin: auto auto auto auto;
-    padding-bottom: 3em;
     display: grid;
     grid-template-columns: auto auto;
     gap: 3em;
@@ -74,7 +74,7 @@ main{
     justify-content: space-evenly;
 }
 
-.c-mobo{
+.c-ecommerce{
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
@@ -82,111 +82,16 @@ main{
     border-radius: 10px;
 }
 
-.moboimg{
-    width: 65%;
-}
-
-.t-mobo{
-    font-size: 24px;
-    color: white;
-    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
-}
-
-.c-cpu{
-    background-color:rgba(221,236,255,.25);
-    border: rgba(221,236,255,.2) solid;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.cpuimg{
-    width: 80%;
-}
-
-.t-cpu{
-    font-size: 24px;
-    color: white;
-    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
-}
-
-.c-ram{
-    background-color:rgba(221,236,255,.25);
-    border: rgba(221,236,255,.2) solid;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.ramimg{
-    width: 65%;
-}
-
-.t-ram{
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
-}
-
-
-.c-hd{
-    background-color:rgba(221,236,255,.25);
-    border: rgba(221,236,255,.2) solid;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.hdimg{
-    width: 45%;
-}
-
-.t-hd{
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
-}
-
-.c-ssd{
-    background-color:rgba(221,236,255,.25);
-    border: rgba(221,236,255,.2) solid;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.ssdimg{
-    width: 60%;
-}
-
-.t-ssd{
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
-}
-
-.c-monitor{
-    background-color:rgba(221,236,255,.25);
-    border: rgba(221,236,255,.2) solid;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.monitorimg{
+.c-ecommerce img{
     width: 62%;
 }
 
-.t-monitor{
+.c-ecommerce h1{
     font-size: 24px;
     color: white;
     text-decoration: none;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
-
 /* Não mudar o código abaixo */
 
 @keyframes fadeIn {

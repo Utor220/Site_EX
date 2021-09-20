@@ -4,6 +4,8 @@
 }
 
 body{
+    width: 70%;
+    margin: auto;
     background-color: slategrey;
     background-image: url(../imagens/bg.jpeg);
     background-size: cover;
@@ -11,7 +13,7 @@ body{
 }
 
 header {
-    height: auto;
+    height: 10vh;
 }
 
 ul{
@@ -37,23 +39,18 @@ ul li a:hover{
 }
 
 .frame{
-    width: auto;
-    min-width: 10em;
-    max-width: 60em;
-    min-height: 40em;
-    max-height: auto;
-    height: auto;
-    margin: 2em auto;
-    position: relative;
-    background-color:rgba(221,236,255,.25);
+    background:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
+    margin-top: 0.5em;
     animation: fadeIn ease 1s;
     border-radius: 10px;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+    color: #fff;
 }
 
 h1{
-    margin: 3em auto auto 1.5em;
-    font-size: 5em;
+    text-align: center;
+    animation: fadeIn ease 1s;
 }
 
 /* Não mudar o código abaixo */

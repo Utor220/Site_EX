@@ -44,6 +44,7 @@ main{
     margin-top: 0.5em;
     animation: fadeIn ease 1s;
     border-radius: 10px;
+    color: #fff;
 }
 
 .a-tinfo{
@@ -53,12 +54,10 @@ main{
 }
 
 .a-tinfo h1{
-    color: #fff;
     font-size: 30px;
 }
 
 .a-tinfo p{
-    color: #fff;
     font-size: 20px;
 }
 
@@ -70,12 +69,10 @@ main{
 }
 
 .a-vant h1{
-    color: #fff;
     font-size: 30px;
 }
 
 .a-vant p{
-    color: #fff;
     font-size: 20px;
 }
 
@@ -87,12 +84,10 @@ main{
 }
 
 .a-comoser h1{
-    color: #fff;
     font-size: 30px;
 }
 
 .a-comoser p{
-    color: #fff;
     font-size: 20px;
 }
 
@@ -104,7 +99,7 @@ main{
 
 #email{
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 /* Não mudar o código abaixo */
