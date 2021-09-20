@@ -12,7 +12,6 @@ body{
 
 header {
     height: auto;
-    background-position: center;
 }
 
 ul{
@@ -49,6 +48,7 @@ ul li a:hover{
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
     animation: fadeIn ease 1s;
+    border-radius: 10px;
 }
 
 h1{

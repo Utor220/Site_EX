@@ -4,7 +4,10 @@
 }
 
 body{
+    width: 70%;
+    margin: auto;
     background-image: url(../imagens/bg.jpeg);
+    background-color: slategrey;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -35,22 +38,16 @@ ul li a:hover{
     color:#000;
 }
 
-.quadro{
-    width: auto;
-    min-width: 10em;
-    max-width: 60em;
-    min-height: 40em;
-    max-height: auto;
-    height: auto;
-    margin: -1.7% auto;
-    position: relative;
-    background-color:rgba(221,236,255,.25);
+main{
+    background:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
+    margin-top: 0.5em;
     animation: fadeIn ease 1s;
+    border-radius: 10px;
 }
 
 .a-tinfo{
-    margin: 2% 15%;
+    text-align: center;
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
@@ -58,19 +55,16 @@ ul li a:hover{
 .a-tinfo h1{
     color: #fff;
     font-size: 30px;
-    vertical-align: top;
-    text-align: center;
 }
 
 .a-tinfo p{
     color: #fff;
     font-size: 20px;
-    vertical-align: top;
-    text-align: center;
 }
 
 .a-vant {
     margin: 4% auto;
+    text-align: center;
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
@@ -78,19 +72,16 @@ ul li a:hover{
 .a-vant h1{
     color: #fff;
     font-size: 30px;
-    vertical-align: top;
-    text-align: center;
 }
 
 .a-vant p{
     color: #fff;
     font-size: 20px;
-    vertical-align: top;
-    text-align: center;
 }
 
 .a-comoser{
     margin: auto auto auto auto;
+    text-align: center;
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
@@ -98,15 +89,11 @@ ul li a:hover{
 .a-comoser h1{
     color: #fff;
     font-size: 30px;
-    vertical-align: top;
-    text-align: center;
 }
 
 .a-comoser p{
     color: #fff;
     font-size: 20px;
-    vertical-align: top;
-    text-align: center;
 }
 
 .pepe{

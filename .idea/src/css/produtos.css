@@ -4,12 +4,16 @@
 }
 
 body{
+    width: 70%;
+    margin: auto;
+    background-color: slategrey;
     background-image: url(../imagens/bg.jpeg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    height: 10vh;
+    height: auto;
 }
 
 ul{
@@ -40,6 +44,11 @@ ul li a:hover{
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 .p-title h1{
     color: #fff;
     font-size: 30px;
@@ -47,72 +56,66 @@ ul li a:hover{
     text-align: center;
 }
 
-.geral{
-    width: auto;
-    min-width: 10em;
-    max-width: 80em;
+main{
     min-height: 40em;
-    max-height: auto;
-    height: auto;
-    margin: -1.5em auto;
-    position: relative;
-    border: rgba(221,236,255,.2) solid;
+    margin: auto auto auto auto;
     animation: fadeIn ease 1s;
+    border: rgba(221,236,255,.2) solid;
+    border-radius: 10px;
+}
 
+.teste{
+    margin: auto auto auto auto;
+    padding-bottom: 3em;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3em;
+    grid-auto-rows: auto;
+    justify-content: space-evenly;
 }
 
 .c-mobo{
-    margin: 4.5em auto auto 6em;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
-    max-width: 18em;
-    height: auto;
+    max-width: 300px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .moboimg{
-    width: 9em;
-    height: auto;
+    width: 65%;
 }
 
 .t-mobo{
     font-size: 24px;
     color: white;
-    text-decoration: none;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
 .c-cpu{
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top: 35%;
-    left: 50%;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .cpuimg{
-    width: 64%;
+    width: 80%;
 }
 
 .t-cpu{
     font-size: 24px;
     color: white;
-    text-decoration: none;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
 .c-ram{
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top: 35%;
-    left: 80%;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .ramimg{
@@ -128,14 +131,11 @@ ul li a:hover{
 
 
 .c-hd{
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top: 70%;
-    left: 19%;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .hdimg{
@@ -150,14 +150,11 @@ ul li a:hover{
 }
 
 .c-ssd{
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top: 70%;
-    left: 50%;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .ssdimg{
@@ -172,14 +169,11 @@ ul li a:hover{
 }
 
 .c-monitor{
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top: 70%;
-    left: 80%;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .monitorimg{

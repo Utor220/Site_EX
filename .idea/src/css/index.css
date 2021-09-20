@@ -4,6 +4,8 @@
 }
 
 body{
+	width: 70%;
+	margin: auto;
 	background-color: slategrey;
 	background-image: url(../imagens/bg.jpeg);
 	background-size: cover;
@@ -11,8 +13,8 @@ body{
 }
 
 header {
-	height: auto;
-	background-position: center;
+	max-height: auto;
+	height: 3em;
 }
 
 ul{
@@ -37,6 +39,12 @@ ul li a:hover{
 	color:#000;
 }
 
+.title{
+	margin: auto auto auto auto;
+	animation: fadeIn ease 1s;
+	text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+	text-align: center;
+}
 
 .logo-home{
 	margin: 3em auto auto auto;
@@ -48,12 +56,6 @@ ul li a:hover{
 .logo-home img{
 	max-width: 100%;
 	height: auto;
-}
-
-.title{
-	margin: auto auto auto auto;
-	animation: fadeIn ease 1s;
-	text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
 .title h1{
