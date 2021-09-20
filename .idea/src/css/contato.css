@@ -1,0 +1,85 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: slategrey;
+    background-image: url(../imagens/bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    height: auto;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    text-align:center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.frame{
+    width: auto;
+    min-width: 10em;
+    max-width: 60em;
+    min-height: 40em;
+    max-height: auto;
+    height: auto;
+    margin: 2em auto;
+    position: relative;
+    background-color:rgba(221,236,255,.25);
+    border: rgba(221,236,255,.2) solid;
+    animation: fadeIn ease 1s;
+}
+
+h1{
+    margin: 3em auto auto 1.5em;
+    font-size: 5em;
+}
+
+/* Não mudar o código abaixo */
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

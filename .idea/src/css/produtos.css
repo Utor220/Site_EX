@@ -35,9 +35,7 @@ ul li a:hover{
 }
 
 .p-title{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: auto auto auto auto;
     animation: fadeIn ease 1s;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
@@ -46,23 +44,35 @@ ul li a:hover{
     color: #fff;
     font-size: 30px;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
+}
+
+.geral{
+    width: auto;
+    min-width: 10em;
+    max-width: 80em;
+    min-height: 40em;
+    max-height: auto;
+    height: auto;
+    margin: -1.5em auto;
+    position: relative;
+    border: rgba(221,236,255,.2) solid;
+    animation: fadeIn ease 1s;
+
 }
 
 .c-mobo{
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top: 35%;
-    left: 19%;
+    margin: 4.5em auto auto 6em;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
-    max-width: 300px;
+    max-width: 18em;
+    height: auto;
     text-align: center;
-    animation: fadeIn ease 1s;
 }
 
 .moboimg{
-    width: 50%;
+    width: 9em;
+    height: auto;
 }
 
 .t-mobo{
@@ -81,7 +91,6 @@ ul li a:hover{
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
-    animation: fadeIn ease 1s;
 }
 
 .cpuimg{
@@ -104,7 +113,6 @@ ul li a:hover{
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
-    animation: fadeIn ease 1s;
 }
 
 .ramimg{
@@ -128,7 +136,6 @@ ul li a:hover{
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
-    animation: fadeIn ease 1s;
 }
 
 .hdimg{
@@ -151,7 +158,6 @@ ul li a:hover{
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
-    animation: fadeIn ease 1s;
 }
 
 .ssdimg{
@@ -174,7 +180,6 @@ ul li a:hover{
     border: rgba(221,236,255,.2) solid;
     max-width: 300px;
     text-align: center;
-    animation: fadeIn ease 1s;
 }
 
 .monitorimg{

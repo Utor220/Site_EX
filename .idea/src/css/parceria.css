@@ -46,6 +46,7 @@ ul li a:hover{
     position: relative;
     background-color:rgba(221,236,255,.25);
     border: rgba(221,236,255,.2) solid;
+    animation: fadeIn ease 1s;
 }
 
 .a-tinfo{
@@ -118,6 +119,7 @@ ul li a:hover{
     text-decoration: none;
     color: white;
 }
+
 /* Não mudar o código abaixo */
 
 
