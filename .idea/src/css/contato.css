@@ -6,10 +6,10 @@
 body{
     width: 70%;
     margin: auto;
-    background-color: slategrey;
     background-image: url(../imagens/bg.jpeg);
-    background-size: cover;
+    background-color: slategrey;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
@@ -50,8 +50,34 @@ ul li a:hover{
 
 h1{
     text-align: center;
-    animation: fadeIn ease 1s;
+    font-size: 2em;
 }
+
+h2{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.form{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Não mudar o código abaixo */
 

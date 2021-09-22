@@ -92,6 +92,25 @@ main{
     text-decoration: none;
     text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
+
+.c-host{
+    background-color:rgba(221,236,255,.25);
+    border: rgba(221,236,255,.2) solid;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.c-host img{
+    width: 55%;
+}
+
+.c-host h1{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
 /* Não mudar o código abaixo */
 
 @keyframes fadeIn {

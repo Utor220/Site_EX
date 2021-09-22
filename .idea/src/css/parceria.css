@@ -54,11 +54,11 @@ main{
 }
 
 .a-tinfo h1{
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .a-tinfo p{
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .a-vant {
@@ -69,11 +69,11 @@ main{
 }
 
 .a-vant h1{
-    font-size: 30px;
+    font-size: 1.6em;
 }
 
 .a-vant p{
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .a-comoser{
@@ -84,11 +84,11 @@ main{
 }
 
 .a-comoser h1{
-    font-size: 30px;
+    font-size: 1.6em;
 }
 
 .a-comoser p{
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .pepe{
