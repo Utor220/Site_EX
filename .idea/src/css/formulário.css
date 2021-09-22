@@ -37,3 +37,107 @@ ul li a:hover{
     background-color: #fff;
     color:#000;
 }
+
+.frame{
+    background:rgba(221,236,255,.25);
+    border: rgba(221,236,255,.2) solid;
+    margin-top: 0.5em;
+    animation: fadeIn ease 1s;
+    border-radius: 10px;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+    color: #fff;
+}
+
+form{
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.6em;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 50%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+input{
+    width: 30%;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 35%;
+}
+
+select{
+    width: 30%;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: crimson;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 0.8em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 42.5%;
+}
+
+#motivo{
+    font-size: 0.85em;
+    margin-left: 35%;
+}
+
+#mensagem{
+    font-size: 0.85em;
+}
+
+/* Não mudar o código abaixo */
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
